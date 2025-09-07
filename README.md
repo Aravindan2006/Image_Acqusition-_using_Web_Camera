@@ -50,7 +50,12 @@ plt.imshow(captured_image[:,:,::-1])
 plt.title('Captured Frame')
 plt.axis('off')
 plt.show()
+```
+<img width="728" height="531" alt="Screenshot 2025-09-07 174515" src="https://github.com/user-attachments/assets/41a1c5a5-448d-4264-87df-47369a2d3b25" />
 
+
+
+```
 ## ii) Display the video
 cap = cv2.VideoCapture(0)
 
@@ -66,7 +71,10 @@ for i in range(50):
     time.sleep(0.05)
 
 cap.release()
+```
+<img width="680" height="491" alt="Screenshot 2025-09-07 174534" src="https://github.com/user-attachments/assets/34dbce81-708a-4ac4-a677-ef81df1d6949" />
 
+```
 ## iii) Display the video by resizing the window
 cap = cv2.VideoCapture(0)
 
@@ -83,7 +91,10 @@ for i in range(50):
     time.sleep(0.05)
 
 cap.release()
+```
+<img width="370" height="481" alt="Screenshot 2025-09-07 174546" src="https://github.com/user-attachments/assets/e815b0a9-92eb-42c7-a773-0c8d7de7dc31" />
 
+```
 ## iv) Rotate and display the video
 cap = cv2.VideoCapture(0)
 
@@ -101,19 +112,6 @@ for i in range(50):
 
 cap.release()
 ```
-## Output:
-
-### i) Write the frame as JPG image
-<img width="728" height="531" alt="Screenshot 2025-09-07 174515" src="https://github.com/user-attachments/assets/41a1c5a5-448d-4264-87df-47369a2d3b25" />
-
-### ii) Display the video
-<img width="680" height="491" alt="Screenshot 2025-09-07 174534" src="https://github.com/user-attachments/assets/34dbce81-708a-4ac4-a677-ef81df1d6949" />
-
-
-### iii) Display the video by resizing the window
-<img width="370" height="481" alt="Screenshot 2025-09-07 174546" src="https://github.com/user-attachments/assets/e815b0a9-92eb-42c7-a773-0c8d7de7dc31" />
-
-### iv) Rotate and display the video
 <img width="392" height="488" alt="Screenshot 2025-09-07 174602" src="https://github.com/user-attachments/assets/4246c704-b46c-422b-accb-325bd8a46f84" />
 
 ## Result:
